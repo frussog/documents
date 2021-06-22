@@ -1,0 +1,23 @@
+Retail Revamp Project
+**********************
+
+Applicant -- > Fernando Russo.
+
+Technical Points accomplished
+*****************************
+
+* MySql DB Installation. Migration of data from Tshirt web service into new tables.
+
+* 5 APIs developed. Three of them pertaining to System API layer (Inventory, Client and Order)  Two of them pertaining to Process API layer (Purchase and Product)
+
+* Order API exposes the behavior pertaining to Tshirt web service. (this item covers Optional task number 2)
+
+* Client ID enforcement policy has been set up for Purchase API. (this item covers Optional task number 1)
+
+* Client service API is being deploy to CloudHub. (this item covers Optional task number 3)
+
+* Ansible script developed which downloads a mule.zip file and decompresses it to create a sandbox environment. It also retrieves a token from the Login API and then attempts to
+get a registrationToken from the API. Various packages installation tasks (perl, wget)  (this item covers required task numer 2)
+
+* Inventory API along with Order, are installed running Jenkins CI CD (using pipeline) in two separate servers (Sandbox and Production) running locally. (this item covers required
+task number 3)
